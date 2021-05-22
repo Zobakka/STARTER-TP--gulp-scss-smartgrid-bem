@@ -56,6 +56,9 @@ const requireDir = require("require-dir"),
         gzip: {
             src: "./src/.htaccess",
             dist: "./dist/"
+        },
+        settings: {
+            watch: ["./.smart-grid.js"]
         }
     };
 
