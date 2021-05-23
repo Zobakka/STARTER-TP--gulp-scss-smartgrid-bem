@@ -9,7 +9,7 @@ gulp.task("smart-grid", (cb) => {
 
     const settings = require("./../.smart-grid");
 
-    smartgrid("./src/styles/vendor/import/", settings);
+    smartgrid("./src/styles/vendor/import", settings);
     
     cb();
 });
